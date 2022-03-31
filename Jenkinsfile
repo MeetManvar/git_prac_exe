@@ -19,7 +19,7 @@ pipeline {
     }  
     
             
- #   /*stage('Test') {
+    /*stage('Test') {
   #    steps {
    #     sh 'node server.js'
     #  }
