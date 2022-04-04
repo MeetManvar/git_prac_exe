@@ -8,10 +8,8 @@ WORKDIR /meet/dockerapp
 
 COPY ["package*.json","./"]
 
-RUN npm install pm2 -g
-
 RUN npm install
 
 COPY . .
 
-ENTRYPOINT [ "pm2-runtime", "server.js" ]
+ENTRYPOINT [ "npm", "start" ]
