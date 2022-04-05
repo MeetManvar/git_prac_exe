@@ -7,5 +7,4 @@ docker stop jenkins
 docker rm jenkins
 docker rmi meetmanvar/cicdrepo:latest
 docker run --name jenkins -p 3001:3000 meetmanvar/cicdrepo:latest
-exit
-'ENDSSH'
+ENDSSH
