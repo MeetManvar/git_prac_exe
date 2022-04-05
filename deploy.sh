@@ -6,4 +6,4 @@ ifconfig
 docker stop jenkins
 docker rm jenkins
 docker rmi meetmanvar/cicdrepo:latest
-docker run -d --name jenkins -p 3000:3000 meetmanvar/cicdrepo:latest
+docker run --name jenkins -p 3000:3000 meetmanvar/cicdrepo:latest
