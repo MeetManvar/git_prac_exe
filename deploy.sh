@@ -1,8 +1,6 @@
 #!/bin/bash
-ssh ubuntu@54.242.33.225 << 'ENDSSH'
-ifconfig
+ssh ubuntu@54.242.33.225 << ENDSSH
 docker login -u "meetmanvar" -p "Meet.docker@1234"
-ifconfig
 docker stop jenkins
 docker rm jenkins
 docker rmi meetmanvar/cicdrepo:latest
