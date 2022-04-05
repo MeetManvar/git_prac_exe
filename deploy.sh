@@ -1,4 +1,3 @@
-#!/bin/bash
 ssh ubuntu@54.242.33.225 << ENDSSH
 docker login -u "meetmanvar" -p "Meet.docker@1234"
 docker stop jenkins
