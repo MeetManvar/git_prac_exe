@@ -4,5 +4,5 @@ docker login --username "meetmanvar" --password "Meet.docker@1234"
 docker stop jenkins
 docker rm jenkins
 docker rmi meetmanvar/cicdrepo:$1
-docker run --name jenkins -p 3001:3000 -d meetmanvar/cicdrepo:$1
+docker run --name jenkins -p 3001:3000 meetmanvar/cicdrepo:$1
 ENDSSH
