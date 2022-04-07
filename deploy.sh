@@ -6,4 +6,5 @@ docker rm jenkins
 echo ${1}
 docker rmi meetmanvar/cicdrepo:${1}
 docker run --name jenkins -d -p 3001:3000 meetmanvar/cicdrepo:${1}
+hello
 #ENDSSH
